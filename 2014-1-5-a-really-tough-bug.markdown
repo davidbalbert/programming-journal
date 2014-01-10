@@ -4,7 +4,8 @@ I've been writing a store passing Lisp interpreter, and I ran into a really
 tough bug. Here are two pieces of basically equivalent code:
 
 ```lisp
-(def second (comp car cdr)) (map second '((a 1) (b 2)))
+(def second (comp car cdr))
+(map second '((a 1) (b 2)))
 
 (map (comp car cdr) '((a 1) (b 2)))
 ```
@@ -15,7 +16,9 @@ message "((a 1) (b 2)) is not callable."
 Here's what comp looks like:
 
 ```lisp
-(defun comp (f g) (lambda (& args) (f (apply g args))))
+(defun comp (f g)
+   (lambda (& args)
+      (f (apply g args))))
 ```
 
 After a bit of poking around, I found that `((a 1) (b 2)`, which I'm going to

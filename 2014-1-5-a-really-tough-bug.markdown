@@ -1,4 +1,4 @@
-# A really though bug
+# A really tough bug
 
 I've been writing a store passing Lisp interpreter, and I ran into a really
 tough bug. Here are two pieces of basically equivalent code:

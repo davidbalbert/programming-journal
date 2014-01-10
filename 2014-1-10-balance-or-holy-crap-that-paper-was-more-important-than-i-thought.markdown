@@ -55,7 +55,7 @@ other is huge.
 What I think is most important is not this realization, nor this particular
 paper, but timing. Two weeks ago, reading that paper, or any other good paper,
 was probably near the top of the list of things that would help me become a
-better programmer. On the other handIf I were to only read papers I doubt I
+better programmer. On the other hand, if I were to only read papers I doubt I
 would become much better at all. There are all sorts of things I can do to
 become better. I can write code, read papers, take classes (I'm in the Coursera
 crypto class right now!), do code review, get code review, etc. Figuring out

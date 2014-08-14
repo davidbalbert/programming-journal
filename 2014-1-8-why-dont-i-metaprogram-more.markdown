@@ -5,7 +5,7 @@ interpreter. The first step is to add a proper AST to encode whether or not an
 expression is in the tail position. If you don't encode this information, by
 the time you eval your expression, it will already be too late. Whether or not
 an expression is a tail call depends on the context surrounding it, something
-you don't know if you're eval function operates on s-expressions.
+you don't know if your eval function operates on s-expressions.
 
 S-expressions get parsed into an AST after macroexpansion but before
 evaluation. That way macros still operate on lists (otherwise it wouldn't be

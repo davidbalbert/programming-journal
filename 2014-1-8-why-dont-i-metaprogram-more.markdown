@@ -115,7 +115,7 @@ Macros are awesome and I wish Ruby had them. Specifically what I want is the
 equivalent of quoting and unquoting syntax. Those are some pretty powerful
 ideas. Lisp macros are super nice because you already know the exact shape of
 the data structures that represent AST nodes. They're lists! I think macros are
-a little less elegant in langauges that have syntax, because you need to know
+a little less elegant in langugaes that have syntax, because you need to know
 the field names for the structs that represent all the syntax. That said,
 quoting and unquoting get you most of the way there because you don't have to
 manipulate the expression objects directly.

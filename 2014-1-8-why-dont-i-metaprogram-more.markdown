@@ -14,7 +14,7 @@ much of a Lisp), but eval gets the extra information encoded in the AST.
 Which is how we get to the question of metaprogramming. My AST has one node
 type for each special form, one for function calls, and eventually, one for
 tail calls. With the exception of field names, each special form node is pretty
-much the same. It has to know things like its name, it's arg count, whether it
+much the same. It has to know things like its name, its arg count, whether it
 takes a variable number of arguments, and how to parse its data out of a list.
 My first naive implementation looked something like this:
 
